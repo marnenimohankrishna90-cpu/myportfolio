@@ -1,0 +1,120 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+padding:20px 10%;
+background:#111827;
+position:sticky;
+top:0;
+}
+
+.logo{
+color:#00e5ff;
+font-size:28px;
+font-weight:bold;
+text-decoration:none;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+nav a:hover{
+color:#00e5ff;
+}
+
+.home{
+display:flex;
+align-items:center;
+justify-content:center;
+padding:80px 10%;
+gap:60px;
+}
+
+.image img{
+width:300px;
+border-radius:50%;
+border:6px solid cyan;
+box-shadow:0 0 30px cyan;
+}
+
+.content h1{
+font-size:50px;
+}
+
+.content h2{
+color:#00e5ff;
+margin:10px 0;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 30px;
+background:#00e5ff;
+color:black;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+}
+
+section{
+padding:80px 10%;
+}
+
+.title{
+text-align:center;
+margin-bottom:40px;
+font-size:35px;
+color:#00e5ff;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:20px;
+}
+
+.card{
+background:#1e293b;
+padding:30px;
+text-align:center;
+border-radius:10px;
+font-size:22px;
+}
+
+.edu,.project{
+background:#1e293b;
+padding:25px;
+border-radius:10px;
+}
+
+.social{
+margin-top:20px;
+}
+
+.social a{
+font-size:30px;
+color:#00e5ff;
+margin-right:20px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#111827;
+}
