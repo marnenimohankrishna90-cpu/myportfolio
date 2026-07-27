@@ -2,40 +2,47 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio of M. Mohan Krishna - Computer Science Engineering Student">
+
     <title>Mohan Krishna | Portfolio</title>
+
+    <meta name="description"
+        content="Portfolio of M. Mohan Krishna - Computer Science Engineering Student">
 
     <link rel="stylesheet" href="style.css">
 
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
 </head>
 
 <body>
 
-    <!-- Header -->
+    <!--================ HEADER ================-->
 
     <header>
 
         <a href="#" class="logo">MOHAN</a>
 
-        <nav>
+        <nav id="navbar">
 
-            <a href="#home">Home</a>
+            <a href="#home" class="active">Home</a>
             <a href="#about">About</a>
+            <a href="#stats">Stats</a>
             <a href="#skills">Skills</a>
             <a href="#education">Education</a>
             <a href="#projects">Projects</a>
             <a href="#certifications">Certificates</a>
+            <a href="#achievements">Achievements</a>
             <a href="#contact">Contact</a>
 
         </nav>
 
     </header>
 
-    <!-- Home -->
+    <!--================ HOME ================-->
 
     <section class="home" id="home">
 
@@ -47,198 +54,495 @@
 
         <div class="content">
 
-            <h3>Hello, I'm</h3>
+            <h3>Hello 👋 I'm</h3>
 
             <h1>M. Mohan Krishna</h1>
 
-            <h2>Computer Science Engineering Student</h2>
+            <h2><span id="typing"></span></h2>
 
             <p>
-                Passionate Web Developer with knowledge of HTML, CSS, JavaScript,
-                Python, Java, and MySQL. I love creating responsive websites and
-                solving programming problems.
+
+                Passionate Computer Science Engineering student with
+                knowledge in HTML, CSS, JavaScript, Python,
+                Java, C and MySQL.
+
+                I enjoy developing responsive websites and solving
+                real-world programming problems.
+
             </p>
 
-            <a href="#contact" class="btn">Hire Me</a>
-            <a href="Mohan_cv.pdf" class="btn">Download Resume</a>
+            <div class="buttons">
+
+                <a href="#contact" class="btn">
+                    Hire Me
+                </a>
+
+                <a href="Mohan_cv.pdf" download class="btn">
+
+                    <i class="fas fa-download"></i>
+
+                    Resume
+
+                </a>
+
+            </div>
 
         </div>
 
     </section>
 
-    <!-- About -->
+    <!--================ ABOUT ================-->
 
     <section id="about">
 
-        <h2 class="title">About Me</h2>
+        <h2 class="title">
 
-        <p>
-            Hello! I'm <strong>M. Mohan Krishna</strong>, a Computer Science Engineering
-            student pursuing my B.Tech at <strong>Vignan University</strong> with a
-            <strong>CGPA of 7.81</strong>.
-        </p>
+            About Me
 
-        <p>
-            I have knowledge of
-            <strong>HTML, CSS, JavaScript, Python, Java (Basics), C, MySQL</strong>,
-            and I'm familiar with
-            <strong>DBMS, Data Structures, OOP, and Web Development.</strong>
-        </p>
+        </h2>
 
-        <p>
-            My academic project,
-            <strong>Service Center Problem Management System</strong>,
-            is a web application developed using HTML, CSS, JavaScript, and MySQL
-            to manage customer complaints efficiently.
-        </p>
-
-        <p>
-            My career goal is to become a
-            <strong>Full Stack Web Developer</strong> and build innovative web
-            applications while continuously improving my technical skills.
-        </p>
-
-    </section>
-
-    <!-- Skills -->
-
-    <section id="skills">
-
-        <h2 class="title">Skills</h2>
-
-        <div class="cards">
-
-            <div class="card">HTML</div>
-            <div class="card">CSS</div>
-            <div class="card">JavaScript</div>
-            <div class="card">Python</div>
-            <div class="card">Java</div>
-            <div class="card">C</div>
-            <div class="card">MySQL</div>
-            <div class="card">Git & GitHub</div>
-            <div class="card">Responsive Web Design</div>
-
-        </div>
-
-    </section>
-
-    <!-- Education -->
-
-    <section id="education">
-
-        <h2 class="title">Education</h2>
-
-        <div class="edu">
-
-            <h3>B.Tech - Computer Science Engineering</h3>
-
-            <p>Vignan University</p>
-
-            <p>CGPA : <strong>7.81</strong></p>
-
-            <p>Expected Graduation : 2028</p>
-
-        </div>
-
-    </section>
-
-    <!-- Projects -->
-
-    <section id="projects">
-
-        <h2 class="title">Projects</h2>
-
-        <div class="project">
-
-            <h3>Service Center Problem Management System</h3>
+        <div class="about-box">
 
             <p>
-                Developed a responsive complaint management system using
-                HTML, CSS, JavaScript, and MySQL. It helps customers register
-                complaints and enables administrators to manage service requests.
+
+                Hello!
+
+                I'm <strong>M. Mohan Krishna</strong>,
+                currently pursuing B.Tech in Computer Science Engineering
+                at <strong>Vignan University</strong>.
+
+            </p>
+
+            <p>
+
+                I have knowledge in
+
+                HTML,
+                CSS,
+                JavaScript,
+                Python,
+                Java,
+                C,
+                MySQL,
+                Git &
+                GitHub.
+
+            </p>
+
+            <p>
+
+                My goal is to become a
+
+                <strong>Full Stack Web Developer</strong>
+
+                and contribute to innovative software projects.
+
+            </p>
+
+            <p>
+
+                I enjoy learning new technologies,
+                building responsive websites,
+                and improving my programming skills every day.
+
             </p>
 
         </div>
 
     </section>
 
-    <!-- Certifications -->
+    <!--================ STATS ================-->
 
-    <section id="certifications">
+    <section id="stats">
 
-        <h2 class="title">Certifications</h2>
+        <h2 class="title">
 
-        <ul>
-            <li>Introduction to HTML & CSS</li>
-            <li>JavaScript Fundamentals</li>
-            <li>Python Programming</li>
-            <li>Database Management System</li>
-        </ul>
+            My Statistics
 
-    </section>
+        </h2>
 
-    <!-- Achievements -->
+        <div class="cards">
 
-    <section id="achievements">
+            <div class="card">
 
-        <h2 class="title">Achievements</h2>
+                <h1>3+</h1>
 
-        <ul>
-            <li>Built multiple responsive web applications.</li>
-            <li>Completed several programming and web development courses.</li>
-            <li>Actively learning Full Stack Web Development.</li>
-        </ul>
+                <p>Projects</p>
 
-    </section>
+            </div>
 
-    <!-- Languages -->
+            <div class="card">
 
-    <section id="languages">
+                <h1>15+</h1>
 
-        <h2 class="title">Languages</h2>
+                <p>Certificates</p>
 
-        <ul>
-            <li>English</li>
-            <li>Telugu</li>
-        </ul>
+            </div>
 
-    </section>
+            <div class="card">
 
-    <!-- Contact -->
+                <h1>7.81</h1>
 
-    <section id="contact">
+                <p>CGPA</p>
 
-        <h2 class="title">Contact</h2>
+            </div>
 
-        <p><i class="fas fa-envelope"></i> Email: marnenimohankrishna90@gmail.com</p>
+            <div class="card">
 
-        <p><i class="fas fa-phone"></i> Phone: +91 9032608689</p>
+                <h1>2028</h1>
 
-        <div class="social">
+                <p>Graduation</p>
 
-            <a href="https://www.linkedin.com/" target="_blank">
-                <i class="fab fa-linkedin"></i>
-            </a>
-
-            <a href="https://github.com/" target="_blank">
-                <i class="fab fa-github"></i>
-            </a>
-
-            <a href="mailto:marnenimohankrishna90@gmail.com">
-                <i class="fas fa-envelope"></i>
-            </a>
+            </div>
 
         </div>
 
     </section>
 
-    <!-- Footer -->
+    <!--================ SKILLS ================-->
+
+    <section id="skills">
+
+        <h2 class="title">
+
+            Technical Skills
+
+        </h2>
+
+        <div class="skill">
+
+            <p>HTML</p>
+
+            <div class="bar">
+
+                <div class="fill html"></div>
+
+            </div>
+
+        </div>
+
+        <div class="skill">
+
+            <p>CSS</p>
+
+            <div class="bar">
+
+                <div class="fill css"></div>
+
+            </div>
+
+        </div>
+
+        <div class="skill">
+
+            <p>JavaScript</p>
+
+            <div class="bar">
+
+                <div class="fill js"></div>
+
+            </div>
+
+        </div>
+
+        <div class="skill">
+
+            <p>Python</p>
+
+            <div class="bar">
+
+                <div class="fill python"></div>
+
+            </div>
+
+        </div>
+
+        <div class="skill">
+
+            <p>Java</p>
+
+            <div class="bar">
+
+                <div class="fill java"></div>
+
+            </div>
+
+        </div>
+
+        <div class="skill">
+
+            <p>MySQL</p>
+
+            <div class="bar">
+
+                <div class="fill mysql"></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--================ EDUCATION ================-->
+
+    <section id="education">
+
+        <h2 class="title">
+
+            Education
+
+        </h2>
+
+        <div class="edu">
+
+            <h3>
+
+                Bachelor of Technology
+
+            </h3>
+
+            <h4>
+
+                Computer Science Engineering
+
+            </h4>
+
+            <p>
+
+                Vignan University
+
+            </p>
+
+            <p>
+
+                CGPA :
+                <strong>7.99</strong>
+
+            </p>
+
+            <p>
+
+                Expected Graduation :
+                2028
+
+            </p>
+            <h3>
+               Higher secondary Education 
+            </h3>
+            <p><strong> VIGNAN CO-OPERATIVE JUNIOR COLLEGE</strong></p>
+            <P>percentage:<strong>96.5</strong></P>
+            <p> completed higher secondary education with strong academic performance in mathematics and science </p>
+            <h3>Secondary school education</h3>
+            <p><strong>Gowtham concept school</strong></p>
+            <p> percentage:<strong>85.1</strong></p>
+            <p>completed secondary education with emphasis on core subjects including mathematics,science and communication</p>
+
+
+        </div>
+
+    </section>
+
+    <!--================ PROJECTS ================-->
+
+    <section id="projects">
+
+        <h2 class="title">
+
+            Projects
+
+        </h2>
+
+        <div class="project">
+
+            <h3>
+
+                Service Center Problem Management System
+
+            </h3>
+
+            <p>
+
+                Developed using
+
+                HTML,
+                CSS,
+                JavaScript,
+                MySQL.
+
+            </p>
+
+            <p>
+
+                Enables customers to register complaints and
+                administrators to manage service requests efficiently.
+
+            </p>
+
+        </div>
+
+        <div class="project">
+
+            <h3>
+
+                Personal Portfolio Website
+
+            </h3>
+
+            <p>
+
+                Responsive portfolio website with modern UI,
+                animations,
+                typing effect,
+                and mobile-friendly design.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!--================ CERTIFICATES ================-->
+
+    <section id="certifications">
+
+        <h2 class="title">
+
+            Certifications
+
+        </h2>
+
+        <ul>
+
+            <li>HTML & CSS</li>
+
+            <li>JavaScript Fundamentals</li>
+
+            <li>Python Programming</li>
+
+            <li>Database Management System</li>
+
+            <li>Git & GitHub</li>
+
+        </ul>
+
+    </section>
+
+    <!--================ ACHIEVEMENTS ================-->
+
+    <section id="achievements">
+
+        <h2 class="title">
+
+            Achievements
+
+        </h2>
+
+        <ul>
+
+            <li>Built multiple responsive web applications.</li>
+
+            <li>Completed programming certifications.</li>
+
+            <li>Learning Full Stack Development.</li>
+
+            <li>Strong interest in UI/UX Design.</li>
+
+        </ul>
+
+    </section>
+
+    <!--================ CONTACT ================-->
+
+    <section id="contact">
+
+        <h2 class="title">
+
+            Contact Me
+
+        </h2>
+
+        <div class="contact-box">
+
+            <p>
+
+                <i class="fas fa-envelope"></i>
+
+                Email :
+                marnenimohankrishna90@gmail.com
+
+            </p>
+
+            <p>
+
+                <i class="fas fa-phone"></i>
+
+                Phone :
+                +91 9032608689
+
+            </p>
+
+            <div class="social">
+
+                <a href="https://github.com/" target="_blank">
+
+                    <i class="fab fa-github"></i>
+
+                </a>
+
+                <a href="https://linkedin.com/" target="_blank">
+
+                    <i class="fab fa-linkedin"></i>
+
+                </a>
+
+                <a href="mailto:marnenimohankrishna90@gmail.com">
+
+                    <i class="fas fa-envelope"></i>
+
+                </a>
+
+            </div>
+
+            <form>
+
+                <input type="text" placeholder="Your Name">
+
+                <input type="email" placeholder="Your Email">
+
+                <textarea rows="5"
+                    placeholder="Your Message"></textarea>
+
+                <button class="btn">
+
+                    Send Message
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!--================ FOOTER ================-->
 
     <footer>
 
-        <p>© 2026 M. Mohan Krishna | All Rights Reserved.</p>
+        <p>
+
+            © 2026 M. Mohan Krishna
+
+            | All Rights Reserved.
+
+        </p>
 
     </footer>
+
+    <button id="topBtn">
+
+        ↑
+
+    </button>
 
     <script src="script.js"></script>
 
